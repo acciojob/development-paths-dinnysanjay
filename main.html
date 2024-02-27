@@ -20,6 +20,11 @@
 		<li>Web</li>
 	</ul>
     <script type="text/javascript" src="./script.js">
+		 var listItems = document.querySelectorAll("ul li"); // This selects all list items in your document
+
+  for (var i = 0; i < listItems.length; i++) {
+    listItems[i].textContent += " Development"; // This appends " Development" to each list item
+  }
 </script>
 
 </body>
